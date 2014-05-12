@@ -1,4 +1,4 @@
-cursor = db.weather.find().sort( { _id : -6 } ).limit(1);
+cursor = db.weather.find().sort( { _id : -1 } ).limit(1);
 
 while(cursor.hasNext()){
     printjson(cursor.next());

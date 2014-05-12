@@ -16,7 +16,7 @@ If not edit line 14 of `data-loader.py` and `station-loader.py`
 
 ### Load Stations
 
-`python station-loader.py ish-history.csv`
+`$ python station-loader.py ish-history.csv`
 
 This command will create a new collection in your MongoDB called stations.
 Stations contains a document for each station. Example below.
@@ -42,3 +42,17 @@ Stations contains a document for each station. Example below.
   "stationName" : "BOSTON/LOGAN INTL"
 }
 ```
+
+# Load Weather
+
+`data-loader.py` takes in ish-history.csv and a folder containing compressed weather data as paramaters.
+
+`data-loader.py` is a multiprocess python application in order to change the number of pooled processes edit line 202.
+Default = 6
+
+`pool = Pool(processes=6)`
+
+
+To run on the attached 1901 ISD data one would use.
+
+`$ python data-loader.py ish-history.csv data/1901`

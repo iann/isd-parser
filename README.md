@@ -88,7 +88,27 @@ Example document:
       "cloudCover": "Eight oktas - 10/10, or OVC",
       "oneHourPrecipitation": null
     },
-    {...}
+    "1901-01-01 06:00:00": {
+      "airTemp": -19.4,
+      "windSpeed": 2.1,
+      "sixHourPrecipitation": null,
+      "dewPoint": null,
+      "pressure": 1014,
+      "timestamp": "",
+      "windDirection": 320,
+      "cloudCover": "Two oktas - 2/10 - 3/10, or FEW",
+      "oneHourPrecipitation": null
+    },
+    "1901-01-01 13:00:00": {
+      "airTemp": -17.2,
+      "windSpeed": 3.1,
+      "sixHourPrecipitation": null,
+      "dewPoint": null,
+      "pressure": 1014.6,
+      "timestamp": "",
+      "windDirection": 320,
+      "cloudCover": "Eight oktas - 10/10, or OVC",
+      "oneHourPrecipitation": null
     }
   }
 }

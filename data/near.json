@@ -1,0 +1,57 @@
+{
+	"_id" : ObjectId("536ee8efba328ccfb195f160"),
+	"loc" : {
+		"type" : "Point",
+		"coordinates" : [
+			-71.067,
+			42.35
+		]
+	},
+	"elevation" : 3.6,
+	"wban" : "94701",
+	"state" : "MA",
+	"country" : "US",
+	"usaf" : "999999",
+	"stationId" : "999999-94701",
+	"callSign" : "",
+	"fipsCountry" : "US",
+	"stationName" : "BOSTON CITY WSO"
+}
+{
+	"_id" : ObjectId("536ee8eeba328ccfb195e65d"),
+	"loc" : {
+		"type" : "Point",
+		"coordinates" : [
+			-71.05,
+			42.35
+		]
+	},
+	"elevation" : 0,
+	"wban" : "99999",
+	"state" : "MA",
+	"country" : "US",
+	"usaf" : "994971",
+	"stationId" : "994971-99999",
+	"callSign" : "BHBM3",
+	"fipsCountry" : "US",
+	"stationName" : "BOSTON"
+}
+{
+	"_id" : ObjectId("536ee8ebba328ccfb195c664"),
+	"loc" : {
+		"type" : "Point",
+		"coordinates" : [
+			-71.011,
+			42.361
+		]
+	},
+	"elevation" : 9.1,
+	"wban" : "14739",
+	"state" : "MA",
+	"country" : "US",
+	"usaf" : "725090",
+	"stationId" : "725090-14739",
+	"callSign" : "KBOS",
+	"fipsCountry" : "US",
+	"stationName" : "BOSTON/LOGAN INTL"
+}

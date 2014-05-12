@@ -19,9 +19,10 @@ If not edit line 14 of `data-loader.py` and `station-loader.py`
 `$ python station-loader.py ish-history.csv`
 
 This command will create a new collection in your MongoDB called stations.
-Stations contains a document for each station. Example below.
+Stations contains a document for each station.
 
-```
+Example document:
+```json
 {
   "_id" : ObjectId("536ee8ebba328ccfb195c664"),
   "loc" : {
@@ -60,3 +61,35 @@ To run on the attached 1901 ISD data one would use.
 #### Batch Load Weather
 
 Use `scripts/batch-command.sh`.
+
+Example document:
+```json
+{
+  "elevation": 102,
+  "usaf": "227070",
+  "stationName": "VYARTSILYA",
+  "year": 1901,
+  "lat": 62.183,
+  "country": "RS",
+  "lon": 30.7,
+  "state": "",
+  "callSign": "",
+  "fipsCountry": "RS",
+  "wban": "99999",
+  "observations": {
+    "1901-01-01 20:00:00": {
+      "airTemp": -15.6,
+      "windSpeed": 3.1,
+      "sixHourPrecipitation": null,
+      "dewPoint": null,
+      "pressure": 1014.6,
+      "timestamp": "",
+      "windDirection": 320,
+      "cloudCover": "Eight oktas - 10/10, or OVC",
+      "oneHourPrecipitation": null
+    },
+    {...}
+    }
+  }
+}
+```

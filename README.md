@@ -43,7 +43,7 @@ Stations contains a document for each station. Example below.
 }
 ```
 
-# Load Weather
+### Load Weather
 
 `data-loader.py` takes in ish-history.csv and a folder containing compressed weather data as paramaters.
 
@@ -56,3 +56,7 @@ Default = 6
 To run on the attached 1901 ISD data one would use.
 
 `$ python data-loader.py ish-history.csv data/1901`
+
+#### Batch Load Weather
+
+Use `scripts/batch-command.sh`.
